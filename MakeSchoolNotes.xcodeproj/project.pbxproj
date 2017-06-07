@@ -15,8 +15,8 @@
 		2E4A07AF1C42F539007F415F /* Date+convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A07AE1C42F539007F415F /* Date+convertToString.swift */; };
 		2E4A07B11C42F599007F415F /* ListNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A07B01C42F599007F415F /* ListNotesTableViewCell.swift */; };
 		848490D31D68F5610043C60B /* MakeSchoolNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848490D11D68F5610043C60B /* MakeSchoolNotes.xcdatamodeld */; };
+		B82470491EE8C25F00C923F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82470481EE8C25F00C923F7 /* Main.storyboard */; };
 		B878A29C1EE8C01500130D5F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878A29B1EE8C01500130D5F /* CoreDataHelper.swift */; };
-		B878A29F1EE8C07000130D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B878A29D1EE8C07000130D5F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,8 +43,8 @@
 		2E4A07AE1C42F539007F415F /* Date+convertToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+convertToString.swift"; sourceTree = "<group>"; };
 		2E4A07B01C42F599007F415F /* ListNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCell.swift; sourceTree = "<group>"; };
 		848490D21D68F5610043C60B /* MakeSchoolNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakeSchoolNotes.xcdatamodel; sourceTree = "<group>"; };
+		B82470471EE8C25F00C923F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B878A29B1EE8C01500130D5F /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
-		B878A29E1EE8C07000130D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Old Make School Notes/MakeSchoolNotes/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				2E4A07931C42F3B0007F415F /* AppDelegate.swift */,
 				848490D11D68F5610043C60B /* MakeSchoolNotes.xcdatamodeld */,
 				2E4A079A1C42F3B0007F415F /* Assets.xcassets */,
-				B878A29D1EE8C07000130D5F /* Main.storyboard */,
+				B82470481EE8C25F00C923F7 /* Main.storyboard */,
 				2E4A079C1C42F3B0007F415F /* LaunchScreen.storyboard */,
 				2E4A079F1C42F3B0007F415F /* Info.plist */,
 			);
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B878A29F1EE8C07000130D5F /* Main.storyboard in Resources */,
 				2E4A079E1C42F3B0007F415F /* LaunchScreen.storyboard in Resources */,
 				2E4A079B1C42F3B0007F415F /* Assets.xcassets in Resources */,
+				B82470491EE8C25F00C923F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,12 +226,13 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		B878A29D1EE8C07000130D5F /* Main.storyboard */ = {
+		B82470481EE8C25F00C923F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B878A29E1EE8C07000130D5F /* Base */,
+				B82470471EE8C25F00C923F7 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../Old Make School Notes/MakeSchoolNotes";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
