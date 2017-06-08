@@ -33,6 +33,9 @@ class DisplayNoteViewController: UIViewController {
         }
         
     }
+    @IBAction func tappedCancel(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

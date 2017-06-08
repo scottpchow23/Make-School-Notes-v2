@@ -39,10 +39,6 @@ class ListNotesTableViewController: UITableViewController {
         return cell
     }
     
-    @IBAction func unwindToListNotesViewController (_ segue: UIStoryboardSegue) {
-        notes = CoreDataHelper.retrieveNotes()
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "displayNote" {
