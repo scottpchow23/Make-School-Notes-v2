@@ -81,7 +81,6 @@
 				2E4A07AD1C42F4EB007F415F /* Extensions */,
 				2E4A07A51C42F3F2007F415F /* Controllers */,
 				2E4A07A61C42F3F2007F415F /* Views */,
-				2E4A07A71C42F3F2007F415F /* Models */,
 				2E4A07931C42F3B0007F415F /* AppDelegate.swift */,
 				848490D11D68F5610043C60B /* MakeSchoolNotes.xcdatamodeld */,
 				2E4A079A1C42F3B0007F415F /* Assets.xcassets */,
@@ -107,13 +106,6 @@
 				2E4A07B01C42F599007F415F /* ListNotesTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2E4A07A71C42F3F2007F415F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		2E4A07AC1C42F4EB007F415F /* Helpers */ = {

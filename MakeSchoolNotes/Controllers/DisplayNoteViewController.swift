@@ -18,20 +18,11 @@ class DisplayNoteViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        
-        if let note = note {
-            
-            noteTitleTextField.text = note.title
-            noteContentTextView.text = note.content
-        } else {
-            
-            noteTitleTextField.text = ""
-            noteContentTextView.text = ""
-        }
+        noteTitleTextField.text = note?.title ?? ""
+        noteContentTextView.text = note?.content ?? ""
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let listNotesTableViewController = segue.destination as! ListNotesTableViewController
         if segue.identifier == "Save" {
             
             let note = self.note ?? CoreDataHelper.newNote()
